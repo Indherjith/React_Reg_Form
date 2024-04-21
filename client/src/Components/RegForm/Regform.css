@@ -1,0 +1,76 @@
+.formContainer{
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    position: fixed;
+    overflow-y: scroll;
+        background-image: url("https://wallpaperaccess.com/full/6540841.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.formSpace{
+    width: 60%;
+    min-width: 320px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    top: 10vh;
+    left: 50%;
+    transform: translateX(-50%);
+    color:white;
+}
+
+.title{
+    text-align: center;
+    font-size:1.5rem;
+    font-weight: bold;
+}
+
+.content{
+    width: 80%;
+    min-width: 300px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.label{
+    margin: 0 0 4px 0;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.field{
+    padding: 10px;
+    font-size: 1rem;
+    width: calc(100% - 24px);
+    margin: 10px 0 3px 0;
+    border-radius: 5px;
+}
+
+
+.err{
+    margin: 3px 0 0 0;
+    color: orangered;
+}
+
+.content_btn{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content_btn > button{
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+.content_btn > button:hover{
+    background-color: rgb(105, 231, 105);
+}
